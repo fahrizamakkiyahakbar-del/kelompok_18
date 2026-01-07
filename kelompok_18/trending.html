@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk Trending - HealthWeb</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/navbar.js"></script>
+  <link rel="stylesheet" href="css/dark-mode.css">
+
+
+<button id="darkModeToggle" class="btn btn-primary">
+    <i class="bi bi-moon-fill"></i>
+</button>
+
+<!-- Dark Mode JS -->
+<script src="js/dark_mode.js"></script> 
+</head>
+<body>
+  <main class="container py-5">
+    <div class="text-center mb-5">
+      <h1 class="mb-2">🔥 Produk Trending & Best Seller</h1>
+      <p class="text-muted">Temukan produk kesehatan terpopuler saat ini</p>
+    </div>
+
+    <div class="product-grid">
+
+  <div class="product-card">
+    <span class="badge">Best Seller</span>
+    <div class="product-image">
+      <img src="vitaminC.jpeg" alt="Vitamin C">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Vitamin C 1000mg + Zinc</h3>
+      <span class="product-price">Rp 120.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="badge trending">Trending</span>
+    <div class="product-image">
+      <img src="Creatine.jpeg" alt="Creatine">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Optimum Nutrition Creatine</h3>
+      <span class="product-price">Rp 150.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="badge">Best Seller</span>
+    <div class="product-image">
+      <img src="Protein Powder.jpeg" alt="Protein">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Protein Supplement Chocolate</h3>
+      <span class="product-price">Rp 350.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+  <a href="detail-proisolate.html">
+    <img src="proisolate.jpeg" alt="Pro Isolate">
+  </a>
+</div>
+    <div class="product-content">
+      <h3 class="product-title">Series Gold Pro Isolate</h3>
+      <span class="product-price">Rp 95.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="badge trending">Trending</span>
+    <div class="product-image">
+      <img src="timbangan.jpeg" alt="Body Scale">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Digital Body Scale</h3>
+      <span class="product-price">Rp 180.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+      <img src="ceksuhu.jpeg" alt="Thermometer">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Thermometer Digital</h3>
+      <span class="product-price">Rp 110.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="badge">Best Seller</span>
+    <div class="product-image">
+      <img src="jumprope.jpeg" alt="Jump Rope">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Jump Rope Fitness</h3>
+      <span class="product-price">Rp 140.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-image">
+      <img src="barbel.jpeg" alt="Barbell">
+    </div>
+    <div class="product-content">
+      <h3 class="product-title">Barbell Set</h3>
+      <span class="product-price">Rp 90.000</span>
+      <button class="like-btn" onclick="like(this)">❤️ <span>0</span></button>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Tentang HealthWeb</h5>
+          <p>Dapatkan promo dan diskon menarik untuk produk kesehatan pilihan Anda.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Tautan Cepat</h5>
+          <ul class="list-unstyled">
+            <li><a href="Beranda_HW.html" class="text-white text-decoration-none">Beranda</a></li>
+            <li><a href="project.html" class="text-white text-decoration-none">Produk</a></li>
+            <li><a href="promo2.html" class="text-white text-decoration-none">Promo</a></li>
+            <li><a href="kontak.html" class="text-white text-decoration-none">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Ikuti Kami</h5>
+          <div class="social-links">
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center">
+        <p class="mb-0">&copy; 2026 HealthWeb • All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

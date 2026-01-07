@@ -1,0 +1,84 @@
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .review-header h1,
+.dark-mode .review-header p {
+    color: #ffffff;
+}
+
+.dark-mode .review-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+}
+
+.dark-mode .review-card h3 {
+    color: #ffffff;
+}
+
+.dark-mode .badge {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark-mode .badge.toko {
+    background-color: #4a6baf;
+}
+
+.dark-mode .stars {
+    color: #ffc107;
+}
+
+.dark-mode .user {
+    color: #bb86fc;
+}
+
+.dark-mode .footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Dark mode toggle button */
+#darkModeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode #darkModeToggle {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.dark-mode #darkModeToggle:hover {
+    background-color: #444;
+}
+
+/* Adjust form elements in dark mode */
+.dark-mode .form-control,
+.dark-mode .form-select {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+.dark-mode .form-control:focus,
+.dark-mode .form-select:focus {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #666;
+    box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.25);
+}

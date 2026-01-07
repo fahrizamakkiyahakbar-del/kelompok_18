@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifikasi - HealthWeb</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/navbar.js"></script>
+   <!-- Dark Mode CSS -->
+<link rel="stylesheet" href="css/dark-mode.css">
+
+
+<button id="darkModeToggle" class="btn btn-primary">
+    <i class="bi bi-moon-fill"></i>
+</button>
+
+<!-- Dark Mode JS -->
+<script src="js/dark_mode.js"></script>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <div class="notification-header">
+      <h1>Notifikasi</h1>
+      <p>Informasi terbaru seputar akun dan pesanan Anda</p>
+    </div>
+
+    <!-- Pesanan -->
+    <div class="notif success">
+        <div class="icon">📦</div>
+        <div class="content">
+            <p>Pesanan Anda sedang diproses</p>
+            <div class="time">5 menit yang lalu</div>
+        </div>
+    </div>
+
+    <div class="notif info">
+        <div class="icon">🚚</div>
+        <div class="content">
+            <p>Pesanan telah dikirim ke alamat Anda</p>
+            <div class="time">1 jam yang lalu</div>
+        </div>
+    </div>
+
+    <div class="notif success">
+        <div class="icon">✅</div>
+        <div class="content">
+            <p>Pesanan telah berhasil diterima</p>
+            <div class="time">Kemarin</div>
+        </div>
+    </div>
+
+    <!-- Pembayaran -->
+    <div class="notif warning">
+        <div class="icon">💳</div>
+        <div class="content">
+            <p>Menunggu konfirmasi pembayaran</p>
+            <div class="time">2 jam yang lalu</div>
+        </div>
+    </div>
+
+    <div class="notif error">
+        <div class="icon">❌</div>
+        <div class="content">
+            <p>Pembayaran gagal, silakan ulangi</p>
+            <div class="time">Hari ini</div>
+        </div>
+    </div>
+
+    <!-- Promo -->
+    <div class="notif promo">
+        <div class="icon">🎉</div>
+        <div class="content">
+            <p>Promo Diskon 20% Suplemen Kesehatan</p>
+            <div class="time">Hari ini</div>
+        </div>
+    </div>
+
+    <div class="notif promo">
+        <div class="icon">🔥</div>
+        <div class="content">
+            <p>Flash Sale Whey Protein hari ini!</p>
+            <div class="time">Hari ini</div>
+        </div>
+    </div>
+
+    <!-- Sistem -->
+    <div class="notif system">
+        <div class="icon">⚙️</div>
+        <div class="content">
+            <p>Pembaruan sistem aplikasi berhasil</p>
+            <div class="time">2 hari yang lalu</div>
+        </div>
+    </div>
+
+    <div class="notif system">
+        <div class="icon">🔒</div>
+        <div class="content">
+            <p>Keamanan akun Anda telah diperbarui</p>
+            <div class="time">3 hari yang lalu</div>
+        </div>
+    </div>
+
+    <!-- Peringatan -->
+    <div class="notif warning">
+        <div class="icon">⚠️</div>
+        <div class="content">
+            <p>Alamat pengiriman belum lengkap</p>
+            <div class="time">3 hari yang lalu</div>
+        </div>
+    </div>
+
+  </div>
+
+  <footer class="footer mt-5">
+    <div class="container text-center py-3">
+      <p class="mb-0">&copy; 2026 HealthWeb • Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

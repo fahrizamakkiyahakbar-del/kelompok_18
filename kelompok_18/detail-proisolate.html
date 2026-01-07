@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series Gold Pro Isolate - HealthWeb</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="js/navbar.js"></script>
+
+  <!-- Dark Mode CSS -->
+<link rel="stylesheet" href="css/dark-mode.css">
+
+
+<button id="darkModeToggle" class="btn btn-primary">
+    <i class="bi bi-moon-fill"></i>
+</button>
+
+<!-- Dark Mode JS -->
+<script src="js/dark_mode.js"></script>
+
+</head>
+
+<body>
+<main class="container py-5">
+
+  <div class="row align-items-center">
+    <!-- Image -->
+    <div class="col-md-5 text-center">
+      <img src="proisolate.jpeg" alt="Series Gold Pro Isolate" class="img-fluid rounded shadow">
+    </div>
+
+    <!-- Info -->
+    <div class="col-md-7">
+      <h1 class="mb-3">Series Gold Pro Isolate</h1>
+      <p class="text-muted">Suplemen protein isolate berkualitas tinggi untuk pembentukan dan pemulihan otot.</p>
+
+      <h4 class="text-danger mb-3">Rp 95.000</h4>
+
+      <div class="mb-3">
+        <span class="badge bg-success me-2">Best Seller</span>
+        <span class="badge bg-warning text-dark">Trending</span>
+      </div>
+
+      <button class="btn btn-danger btn-lg"
+        onclick="addToCart({
+          id: 101,
+          name: 'Series Gold Pro Isolate',
+          price: 95000,
+          image: 'proisolate.jpeg'
+        })">
+        <i class="bi bi-cart-plus"></i> Tambah ke Keranjang
+      </button>
+    </div>
+  </div>
+
+  <hr class="my-5">
+
+  <!-- Detail -->
+  <div class="row">
+    <div class="col-md-8">
+      <h4>Deskripsi Produk</h4>
+      <p>
+        M1 Pro Isolate 5 Lbs (Chocolate Soul) adalah suplemen protein whey isolate yang cocok bagi yang rutin berolahraga atau ingin menambah asupan protein harian. 
+      <p>
+        Produk ini mengandung 27 gram protein per sajian untuk membantu pembentukan dan pemulihan otot. Kalorinya hanya 140 kkal, dengan 0 lemak (zero fat), sehingga aman untuk program diet dan pembentukan badan. Selain itu, terdapat 7 gram BCAA yang membantu mengurangi kelelahan otot setelah latihan.
+      </p> 
+      <p>
+        Kemudian M1 Pro Isolate juga sudah bersertifikat Halal, BPOM, GMP, HACCP, dan ISO, sehingga aman dan terpercaya. Dalam satu kemasan terdapat sekitar 64 sajian, dengan rasa cokelat yang lezat dan mudah diminum.
+      </p>
+      </p>
+
+      <h4>Manfaat</h4>
+      <ul>
+        <li>Membantu pertumbuhan dan pemulihan otot</li>
+        <li>Rendah lemak dan gula</li>
+        <li>Mudah diserap tubuh</li>
+        <li>Cocok untuk atlet dan pemula</li>
+      </ul>
+
+      <h4>Komposisi</h4>
+      <ul>
+        <li>Protein Isolate</li>
+        <li>Asam Amino Esensial</li>
+        <li>Vitamin B6</li>
+      </ul>
+    </div>
+
+    <!-- Info Tambahan -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5>Informasi Produk</h5>
+          <p><strong>Berat:</strong> 500 gram</p>
+          <p><strong>Rasa:</strong> Vanilla</p>
+          <p><strong>Stok:</strong> Tersedia</p>
+          <p><strong>Kategori:</strong> Suplemen Protein</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2026 HealthWeb • All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
